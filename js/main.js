@@ -12,3 +12,5 @@ for (i = 0; i < 75; i++) {
     opacity: Math.random(),
     transform: 'rotate(' + Math.random() * 360 + 'deg) scale(' + Math.random() + ')'
 });
+  $body.append($star);
+}
